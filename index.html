@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/home.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="gutter-right logo">
+            <img src="assets/guessthenumberlab.jpg" />
+        </div>
+    </header>
+    <main>
+        <section class="main-section">
+            <img class="main-logo" src="assets/guessthenumberlab.jpg" />
+            <h2>
+                Can you guess the number?
+            </h2>
+
+            <div>
+                To play the game think of a number from 1-10.
+                Give it your best you only have 3 tries.
+            </div>
+
+            <section>
+
+                <div id="random-number"></div>
+                <input type="number" id="user-input">
+                <button id="guess-button">Guess!</button>
+                <div id="number-of-guesses"></div>
+                <div id="win-or-lose"> </div>
+
+            </section>
+
+
+        </section>
+    </main>
+    <footer>
+        <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
